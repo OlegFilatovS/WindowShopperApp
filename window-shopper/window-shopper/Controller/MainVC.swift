@@ -13,6 +13,10 @@ class MainVC: UIViewController {
     @IBOutlet weak var wageTxt: CurrencyTxtField!
     @IBOutlet weak var priceTxt: CurrencyTxtField!
     
+    @IBOutlet weak var resultLbl: UILabel!
+
+    @IBOutlet weak var hoursLbl: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +36,8 @@ class MainVC: UIViewController {
         
     }
 
-
+    @IBAction func clearCalculatorBtnPressed(_ sender: Any) {
+    }
+    
 }
 
